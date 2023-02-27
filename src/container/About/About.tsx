@@ -1,0 +1,93 @@
+import { AppWrap, MotionWrap } from "@app/wrapper";
+import { getTotalExperience } from "@app/utils";
+import useIntersectionObserver from "@app/hooks/useIntersectionObserver";
+
+import LottieAnimation from "./LottieAnimation";
+import style from "./About.module.scss";
+import { fadeIn } from "../Skills/Skills";
+
+
+import CountUp from "react-countup";
+// intersection observer hook
+import { useInView } from "react-intersection-observer";
+// motion
+import { motion } from "framer-motion";
+// variant
+
+const About = () => {
+  const { year } = getTotalExperience();
+  const [isIntersecting, ref] = useIntersectionObserver();
+
+    const [ref1, inView] = useInView({
+      threshold: 0.5,
+    });
+
+  return (
+    <>
+      <h2 className="head-text mt-4">
+        About <span>Me</span>
+      </h2>
+      <div className={`w-full ${style["app__about-container"]} 2xl:w-4/5`} ref={ref1}>
+        <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
+          <motion.div
+            variants={fadeIn("right", 0.5)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.3 }}
+            className="flex-1 ml-12"
+          >
+            <h3 className="text-2xl text-primary mb-4 font-semibold">Fullstack Web3 Developer with a passion for learning.</h3>
+            <p className="mb-6 text-[18px]">
+              Applied Physics (AP) graduate from Dublin City University.. Ranked 2nd in my class
+              with a with first degree honours in 2021. Experienced web3 Engineer, focussed on
+              multi-chain development in Defi, knowledgeable in researching, designing, developing
+              and testing blockchain and web3 technologies which include experience with Solidity,
+              Geth, Truffle, Hardat, Typescript, Ganache, React.js, web3.js, and C. 
+              <br></br><br></br>Passionate about
+              Web3 and blockchain core infrastructure. My strongest languages are typescript, React/Next.js and
+              solidity. I have a lot of experiencing devloping full stack web3 applications mainly in areas of Defi such as decentralized trading, lending and cryptocurrency bridging
+            </p>
+            {/* stats */}
+            <div className="flex gap-x-6 lg:gap-x-10 mb-12">
+              <div>
+                <div className="text-[40px] font-tertiary text-primary mb-2">
+                  {inView ? <CountUp start={0} end={4} duration={3} /> : null}
+                </div>
+                <div className="font-primary text-[17px] tracking-[2px]">
+                  Years of <br />
+                  Experience
+                </div>
+              </div>
+              <div>
+                <div className="text-[40px] font-tertiary text-primary mb-2">
+                  {inView ? <CountUp start={0} end={15} duration={3} /> : null}
+                  +
+                </div>
+                <div className="font-primary text-[17px] tracking-[2px]">
+                  Side Projects <br />
+                  Completed
+                </div>
+              </div>
+              <div>
+                <div className="text-[40px] font-tertiary text-primary mb-2">
+                  {inView ? <CountUp start={0} end={1000} duration={3} /> : null}
+                  s'
+                </div>
+                <div className="font-primary text-[17px] tracking-[2px]">
+                  of Hours<br />
+                  Spent Coding
+                </div>
+              </div>
+            </div>
+           
+          </motion.div>
+          <div className="flex" ref={ref}>
+            {isIntersecting && <LottieAnimation />}
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default AppWrap(MotionWrap(About), "about", "bg-white");

@@ -1,0 +1,17 @@
+.app {
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto;
+  position: relative;
+  @apply bg-secondary font-dmSans;
+
+  &__container {
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  main {
+    margin-top: var(--navbar-height);
+  }
+}
