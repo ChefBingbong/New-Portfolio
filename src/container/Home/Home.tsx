@@ -27,10 +27,12 @@ const Home = () => {
       >
         <div className={style["app__home-badge"]}>
           <div className={`${style["badge-cmp"]} app__flex`}>
-            <span>👋</span>
-            <div className="ml-5 w-full">
-              <p className="p-text">Hi there, I am</p>
-              <h1 className="head-text w-[310px]">Evan McGrane</h1>
+            <div className=" w-full ">
+              <p className="p-text">
+                
+                <span className="mr-2">👋</span>Hi there, I am
+              </p>
+              <h1 className="text-[36px] font-semibold">Evan McGrane</h1>
             </div>
           </div>
 
