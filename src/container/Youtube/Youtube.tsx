@@ -111,4 +111,4 @@ const Youtube = () => {
   );
 };
 
-export default AppWrap(MotionWrap(Youtube), "youtube", "bg-secondary");
+export default AppWrap(MotionWrap(Youtube), "youtube", "bg-gray-200");

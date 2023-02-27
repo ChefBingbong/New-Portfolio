@@ -244,4 +244,4 @@ function Section2() {
   );
 }
 
-export default AppWrap(MotionWrap(Section2), "moreinfo", "bg-secondary");
+export default AppWrap(MotionWrap(Section2), "skills", "bg-secondary");

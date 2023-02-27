@@ -82,4 +82,4 @@ const Publications = () => {
   );
 };
 
-export default AppWrap(MotionWrap(Publications), "work", "bg-secondary");
+export default AppWrap(MotionWrap(Publications), "work", "bg-gray-200");

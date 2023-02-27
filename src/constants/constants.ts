@@ -5,14 +5,11 @@ export const HOME_KEY = "home";
 export const navLink = {
   [HOME_KEY]: "HOME",
   about: "ABOUT",
-  knowledge: "KNOWLEDGE",
   certifications: "CERTIFICATIONS",
   work: "WORK",
   skills: "SKILLS",
   contact: "CONTACT",
-  publications: "PUBLICATIONS",
   youtube: "YOUTUBE",
-  moreinfo: "MOREINFO"
 } as const;
 
 export type NavLink = keyof typeof navLink;

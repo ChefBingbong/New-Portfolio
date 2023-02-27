@@ -22,7 +22,7 @@ module.exports = {
       "2xl": "1536px",
     },
     boxShadow: {
-      "custom": '0 0 25px rgba(0, 0, 0, 0.2)'
+      custom: "0 0 25px rgba(0, 0, 0, 0.2)",
     },
 
     colors: {
@@ -53,8 +53,10 @@ module.exports = {
       "black-700": "#25272C",
       "black-600": "#333333",
       "grey-500": "#666666",
+      "gray-250": "#ced1d6",
       "grey-400": "#A3A3A3",
       "bg-grey": "rgb(237,242,248)",
+      "bg-darkgrey": "rgb(367,272,278)",
     },
     animation: {
       flip: "flip 1s cubic-bezier(0, 0, 0.2, 1) infinite",

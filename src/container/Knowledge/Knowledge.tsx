@@ -64,4 +64,4 @@ const Knowledge = () => {
   );
 };
 
-export default AppWrap(MotionWrap(Knowledge), "knowledge", "bg-secondary");
+export default AppWrap(MotionWrap(Knowledge), "about", "bg-secondary");
