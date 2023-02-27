@@ -9,6 +9,8 @@ import Skills from "@app/container/Skills/Skills";
 import Testimonial from "@app/container/Testimonial/Testimonial";
 import Contact from "@app/container/Contact/Contact";
 import Publications from "@app/container/Publications/Publications";
+import Section2 from "@app/container/MoreInfo/MoreInfo";
+
 
 
 import commonStyle from "@app/styles/module/common.module.scss";
@@ -37,6 +39,8 @@ const LandingPage = () => {
       {withSection(Work, "work")}
       {withSection(Publications, "publications")}
       {withSection(Skills, "skills")}
+      {withSection(Section2, "moreinfo")}
+
       {withSection(Youtube, "youtube")}
       {withSection(Certifications, "certifications")}
       {withSection(Contact, "contact")}

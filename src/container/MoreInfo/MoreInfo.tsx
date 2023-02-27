@@ -7,11 +7,13 @@ import WaveB from "public/svgs/astronaut-wave-B.svg";
 import Battery from "public/svgs/battery.svg";
 import Satellite from "public/svgs/satellite.svg";
 import Rocket from "public/svgs/rocket.svg";
-import LearnMoreButton from "../../common/LearnMore";
+import LearnMoreButton from "./LearnMoreButton";
 
 import ReactCardFlip from "react-card-flip";
 import { HiOutlineXCircle } from "react-icons/hi";
-import { Container, Title, Description } from "../../featureCard";
+import { Container, Title, Description } from "./featureCard";
+import { AppWrap, MotionWrap } from "@app/wrapper";
+
 
 interface CrossButtonProps {
   onClick: () => void;
@@ -45,13 +47,13 @@ function Section2() {
   const flip = (key: string, value: boolean) => setFlipped((f) => ({ ...f, [key]: value }));
 
   return (
-    <div id="features" className="flex flex-col items-center pt-16 lg:py-16">
+    <div id="features" className="flex flex-col items-center pt-8">
       <h2 className="max-w-[20ch] text-center px-4 lg:px-0 text-3xl lg:text-5xl font-extrabold tracking-wide">
         The whole multichain at your fingertips
       </h2>
-      <div className="grid gap-4 my-12 lg:my-16 md:grid-cols-2 lg:grid-cols-[308px_324px_416px] lg:w-auto">
+      <div className="grid gap-8 my-12 lg:my-16 md:grid-cols-2 lg:grid-cols-[308px_324px_416px] lg:w-auto">
         {/* One click, zero gas trades */}
-        <Container className="flex flex-col items-center justify-end gap-5 px-8 pt-8 md:order-1 lg:order-none">
+        <Container className="flex flex-col items-center justify-end gap-5 px-8 pt-8 md:order-1 lg:order-none ">
           <Title className="text-3xl text-center">One click, zero gas trades</Title>
           <Description className="max-w-xs text-center">
             Trade across blockchains in one click and at zero network fees.
@@ -65,7 +67,7 @@ function Section2() {
           isFlipped={flipped.trade_freely}
           flipDirection="vertical"
         >
-          <Container className="flex flex-col relative h-[513px] md:h-full bg-[url('/svgs/catalog-wide-path-mobile.svg')] lg:bg-[url('/svgs/catalog-wide-path-web.svg')] bg-no-repeat bg-contain bg-bottom lg:bg-right">
+          <Container className="flex flex-col relative h-[513px] md:h-full bg-[url('/svgs/catalog-wide-path-mobile.svg')] lg:bg-[url('/svgs/catalog-wide-path-web.svg')] bg-no-repeat bg-contain bg-bottom lg:bg-right bg-white">
             <div className="flex flex-col items-center mt-20 lg:items-start lg:mt-0 lg:absolute lg:top-20 lg:left-16">
               <Title className="max-w-[150px] text-center lg:text-left text-3xl lg:text-5xl">
                 Trade freely
@@ -242,4 +244,4 @@ function Section2() {
   );
 }
 
-export default Section2;
+export default AppWrap(MotionWrap(Section2), "moreinfo", "bg-secondary");

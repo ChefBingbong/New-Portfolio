@@ -11,7 +11,8 @@ export const navLink = {
   skills: "SKILLS",
   contact: "CONTACT",
   publications: "PUBLICATIONS",
-  youtube: "YOUTUBE"
+  youtube: "YOUTUBE",
+  moreinfo: "MOREINFO"
 } as const;
 
 export type NavLink = keyof typeof navLink;

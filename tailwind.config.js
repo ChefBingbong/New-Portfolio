@@ -21,6 +21,9 @@ module.exports = {
       xl: "1280px",
       "2xl": "1536px",
     },
+    boxShadow: {
+      "custom": '0 0 25px rgba(0, 0, 0, 0.2)'
+    },
 
     colors: {
       // Override Tailwind CSS default colors
@@ -51,6 +54,7 @@ module.exports = {
       "black-600": "#333333",
       "grey-500": "#666666",
       "grey-400": "#A3A3A3",
+      "bg-grey": "rgb(237,242,248)",
     },
     animation: {
       flip: "flip 1s cubic-bezier(0, 0, 0.2, 1) infinite",
