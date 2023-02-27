@@ -21,6 +21,7 @@ module.exports = {
       xl: "1280px",
       "2xl": "1536px",
     },
+
     colors: {
       // Override Tailwind CSS default colors
       primary: withOpacityValue("--primary-color"), // Use classes like `bg-primary/75`
@@ -42,6 +43,35 @@ module.exports = {
       facebook: "var(--facebook-color)",
       instagram: "var(--instagram-color)",
       hackerrank: "var(--hackerrank-color)",
+      accent: "#DD3F7D",
+      "accent-90": "#C43971",
+      white: "#FAFAFA",
+      "black-800": "#1C1D21",
+      "black-700": "#25272C",
+      "black-600": "#333333",
+      "grey-500": "#666666",
+      "grey-400": "#A3A3A3",
+    },
+    animation: {
+      flip: "flip 1s cubic-bezier(0, 0, 0.2, 1) infinite",
+    },
+    keyframes: {
+      flip: {
+        from: { transform: "rotateX(0deg)", transformOrigin: "50% bottom " },
+        to: { transform: "rotateX(180deg)", transformOrigin: "50% bottom " },
+      },
+    },
+    backgroundImage: {
+      "section4-part1":
+        'radial-gradient(555.04% 280.25% at 0% 0%, theme("colors.black-700") 31.88%, theme("colors.primary") 100%)',
+      "section4-part2":
+        'radial-gradient(555.04% 280.25% at 100% 0%, theme("colors.black-700") 31.88%, theme("colors.primary") 100%)',
+      "section4-part3-web":
+        'radial-gradient(100.69% 1520.93% at 50% 50%, #00000000 44.73%, theme("colors.primary") 100%), url("/svgs/section4-part3-web.svg")',
+      "section4-part3-tablet":
+        'radial-gradient(100.69% 1520.93% at 50% 50%, #00000000 44.73%, theme("colors.primary") 100%), url("/svgs/section4-part3-tablet.svg")',
+      "section4-part3-mobile":
+        'radial-gradient(100.69% 1520.93% at 50% 50%, #00000000 44.73%, theme("colors.primary") 100%), url("/svgs/section4-part3-mobile.svg")',
     },
     extend: {
       colors: {
