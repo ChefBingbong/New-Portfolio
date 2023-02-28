@@ -32,7 +32,7 @@ export const worksData: ReadonlyArray<WorkData> = [
   {
     imgUrl: images.work.cryptocurrencyBitcoin,
     projectLink: "https://cryptocurrency-bitcoin.netlify.app",
-    codeLink: "",
+    codeLink: "https://github.com/mcgraneder?tab=repositories",
     title: "Crypto Bitcoin Price Chart",
     description:
       "Cryptocurrency Bitcoin Price Chart was developed using React, Typescript, coingecko-api, react-chartjs-2, chart.js and tailwindcss.",
