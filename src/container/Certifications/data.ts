@@ -1,10 +1,10 @@
 
 import hackerRankReactBasic from "@app/assets/certifications/hackerrank-react-basic.png";
 import hackerRankRestApiIntermediate from "@app/assets/certifications/hackerrank-rest-api-intermediate.png";
-import EthereumDappProgramming from "@app/assets/certifications/EthereumDappProgramming.png";
-import EthereumGameProgramming from "@app/assets/certifications/EthereumGameProgramming.png";
-import EthereumSC101 from "@app/assets/certifications/EthereumSC101.png";
-import EthereumSC201 from "@app/assets/certifications/EthereumGameProgramming.png";
+import EthereumDappProgramming from "../../constants/certifications/images/EthereumDappProgramming.png";
+import EthereumGameProgramming from "../../constants/certifications/images/EthereumGameProgramming.png";
+import EthereumSC101 from "../../constants/certifications/images/EthereumSC101.png";
+import EthereumSC201 from "../../constants/certifications/images/EthereumSC201.png";
 import freeCodeCampResponsiveWebDesign from "@app/assets/certifications/freecodecamp-responsive-web-design.png";
 import freeCodeCampFullStack from "@app/assets/certifications/freecodecamp-full-stack.png";
 

@@ -36,7 +36,7 @@ import web3login from "./certifications/images/web3login.png";
 import backendCode from "./certifications/images/backendcode1.png";
 import surveyOfCrypto from "./certifications/images/SurveyofCryptoAdoption.png";
 import decentralisedPeerReview from "./certifications/images/decentralisedPeerReviewModel.png";
-import defiMath from "../assets/work/Defimath.png";
+import defiMath from "./certifications/images/Defimath.png";
 
 
 const work = {
