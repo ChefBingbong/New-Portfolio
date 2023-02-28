@@ -26,7 +26,7 @@ const WebsiteMeta = ({ siteUrl, canonical, title, description, image }: WebsiteM
       <meta name="theme-color" content="#313bac" />
       <meta name="color-scheme" content="light" />
 
-      <link rel="canonical" href={canonical} />
+      {/* <link rel="canonical" href={canonical} /> */}
 
       <link rel="manifest" href="/manifest.webmanifest" crossOrigin="use-credentials" />
 
@@ -36,22 +36,14 @@ const WebsiteMeta = ({ siteUrl, canonical, title, description, image }: WebsiteM
               "@context": "https://schema.org",
               "@type": "WebSite",
               "url": "${canonical}",
-              "image": {
-                "@type": "ImageObject",
-                "url": "${image.src}",
-                "width": ${image.width},
-                "height": ${image.height}
-              },
-              "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "${siteUrl}"
-              },
+              
+             
               "description": "${description}"
           }
         `}
       </script>
     </Head>
-    <OpenGraphMeta title={title} description={description} canonical={canonical} image={image} />
+    {/* <OpenGraphMeta title={title} description={description} canonical={canonical} image={image} /> */}
     <IconMeta />
   </>
 );

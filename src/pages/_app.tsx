@@ -15,9 +15,10 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
   const newDescription =
     description ||
     "Web3 Engineer - Full Stack Developer | Typescipt Developer | Nodejs Developer | Frontend Developer | Backend Developer";
-  const newSiteUrl = "https://evan-mcgrane-portfolio.vercel.app/";
+  const newSiteUrl = siteUrl
+
   let newImage = image || images.homePage;
-  newImage.src = getMetaImageUrl(newSiteUrl, newImage.src);
+  // newImage.src = getMetaImageUrl(newSiteUrl, newImage.src);
 
   React.useEffect(() => {
     // Remove the server-side injected CSS.

@@ -13,12 +13,12 @@ interface MetaDataProps {
 
 const MetaData = ({ siteUrl, title, description, image }: MetaDataProps) => {
   const router = useRouter();
-  const canonical = resolve(siteUrl, router.pathname);
+  // const canonical = resolve(siteUrl, router.pathname);
 
   return (
     <WebsiteMeta
       siteUrl={siteUrl}
-      canonical={canonical}
+      canonical={"canonical"}
       title={title}
       description={description}
       image={image}
