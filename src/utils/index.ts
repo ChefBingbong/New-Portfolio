@@ -16,7 +16,7 @@ export const capitalizeCase = (str = "") => str.charAt(0).toUpperCase() + str.sl
 export const sendEmailMessage = async (formData: Record<string, unknown> = {}) => {
   const emailjs = await import("@emailjs/browser" /* webpackChunkName: "emailjs-browser" */);
   const { emailJsServiceId, emailJsTemplateId, emailJsPublicKey } = config;
-  return emailjs.send(emailJsServiceId, emailJsTemplateId, formData, emailJsPublicKey);
+  return emailjs.send("service_b3l0lag", "template_64pnind", formData, "6fb7zWMJrfgb-F9cr");
 };
 
 /**
