@@ -6,7 +6,6 @@ import Knowledge from "@app/container/Knowledge/Knowledge";
 import Certifications from "@app/container/Certifications/Certifications";
 import Work from "@app/container/Work/Work";
 import Skills from "@app/container/Skills/Skills";
-import Testimonial from "@app/container/Testimonial/Testimonial";
 import Contact from "@app/container/Contact/Contact";
 import Publications from "@app/container/Publications/Publications";
 import Section2 from "@app/container/MoreInfo/MoreInfo";

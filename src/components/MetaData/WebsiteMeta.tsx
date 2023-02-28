@@ -2,7 +2,6 @@ import Head from "next/head";
 import { StaticImageData } from "next/legacy/image";
 import IconMeta from "./IconMeta";
 import OpenGraphMeta from "./OpenGraphMeta";
-import TwitterMeta from "./TwitterMeta";
 
 interface WebsiteMetaProps {
   siteUrl: string;
@@ -53,7 +52,6 @@ const WebsiteMeta = ({ siteUrl, canonical, title, description, image }: WebsiteM
       </script>
     </Head>
     <OpenGraphMeta title={title} description={description} canonical={canonical} image={image} />
-    <TwitterMeta title={title} description={description} canonical={canonical} image={image} />
     <IconMeta />
   </>
 );
