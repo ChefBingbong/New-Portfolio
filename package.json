@@ -1,5 +1,5 @@
 {
-  "name": "paalamugan-portfolio-nextjs",
+  "name": "evan-mcgrane-portfolio-nextjs",
   "description": "Developed Full Stack Software Engineer portfolio with full responsiveness using Nextjs framework.",
   "version": "1.0.0",
   "keywords": [
@@ -12,7 +12,7 @@
     "tailwindcss",
     "scss"
   ],
-  "author": "Paalamugan",
+  "author": "EvanMcGrane",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",

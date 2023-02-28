@@ -7,7 +7,7 @@ import images from "@app/constants/images";
 import { dmSans } from "@app/fonts/dm-sans";
 import React from "react";
 
-const suffixTitle = "Paalamugan || Senior Software Engineer";
+const suffixTitle = "Evan McGrane || Senior Software Engineer";
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   const { siteUrl, title, description, image } = pageProps;

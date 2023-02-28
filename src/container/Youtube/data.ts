@@ -22,8 +22,8 @@ export const worksData: ReadonlyArray<WorkData> = [
   },
   {
     imgUrl: images.publications.defiMath,
-    projectLink: "https://nextjs-web-oauth.vercel.app",
-    codeLink: "https://github.com/paalamugan/nextjs-web-oauth-project",
+    projectLink: "",
+    codeLink: "",
     title: "Exploring Financial algorithms for Flash loan Arbitrage",
     description:
       "Paper exploring the mathematics behind concepts in Defi such as Automated market makers (CPAMM's) aswell as efficent algorithms for executing flash loan arbitrage",

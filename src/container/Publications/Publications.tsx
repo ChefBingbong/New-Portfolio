@@ -12,7 +12,7 @@ import { worksData as works, workTabs } from "./data";
 import style from "./Work.module.scss";
 import { TabFilterContainer } from "@app/components/TabFilter/TabFilterContainer";
 
-const renderWorkItem = (work: WorkData) => {
+const renderWorkItem = (work: WorkData & {downloadLink: string}) => {
   return (
     <div key={work.title} className={`${style["app__work-portfolio-item"]}`}>
       <div className={`${style["app__work-portfolio-img"]}`}>
@@ -43,22 +43,27 @@ const renderWorkItem = (work: WorkData) => {
 
       <div className={style["app__work-portfolio-content"]}>
         <div className="flex items-center text-lg bold-text mt-4 leading-normal break-words">
-          <div
-            className="flex-1 mr-1 overflow-hidden text-ellipsis break-words"
-            title={work.title}
-          >
+          <div className="flex-1 mr-1 overflow-hidden text-ellipsis break-words" title={work.title}>
             {work.title}
           </div>
-
         </div>
         <p className="mt-3 mb-4 text-base text-center p-text">{work.description}</p>
         <div className="flex items-center mt-auto">
           <a
-            href={work.projectLink}
+            href={`/${work.downloadLink}`}
             target="_blank"
-            rel="noopener noreferrer"
-            aria-label={`View ${work.title} Demo Website`}
-            className="text-blue-600 text-sm hover:underline"
+            rel="noreferrer noopener"
+            download={work.downloadLink}
+            className={"text-primary hover:underline"}
+          >
+            Download
+          </a>
+          <span className="mx-2">|</span>
+          <a
+            href={`/${work.downloadLink}`}
+            target="_blank"
+            rel="noreferrer noopener"
+            className={"text-primary hover:underline"}
           >
             View Link
           </a>

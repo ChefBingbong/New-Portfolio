@@ -12,7 +12,7 @@ export const worksData: ReadonlyArray<WorkData & {
     description:
       "Litreature review that discusses and analyses the potential of a distributed blockchain model being adopted to remodel different frameworks in Academia such as Peer-review",
     tags: ["noncryptoBlockchainUsecases", "typescript", "nodejs"],
-    downloadLink: ""
+    downloadLink: "paper2.pdf"
   },
   {
     imgUrl: images.publications.decentralisedPeerReview,
@@ -22,7 +22,7 @@ export const worksData: ReadonlyArray<WorkData & {
     description:
       "This paper propses an Proof Of Stake (POS) distributed model that uses game theory and crypto incentive tactics to create a decentraised peer review model that distributes wealth and reputation amoungst the community",
     tags: ["noncryptoBlockchainUsecases", "typescript"],
-    downloadLink: ""
+    downloadLink: "paper1.pdf"
   },
   {
     imgUrl: images.publications.defiMath,
@@ -32,14 +32,14 @@ export const worksData: ReadonlyArray<WorkData & {
     description:
       "Paper exploring the mathematics behind concepts in Defi such as Automated market makers (CPAMM's) aswell as efficent algorithms for executing flash loan arbitrage",
     tags: ["financial", "typescript"],
-    downloadLink: ""
+    downloadLink: "Defi-Bot-Financial-Theory-&-Design-Philosopy.pdf"
   },
 ];
 
 export const workTabs = [
   {
     id: "all",
-    name: "All",
+  name: "All",
   },
   {
     id: "financial",

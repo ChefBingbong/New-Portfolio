@@ -23,7 +23,7 @@ export const worksData: ReadonlyArray<WorkData> = [
   {
     imgUrl: images.work.nextjsWebOAuth,
     projectLink: "https://nextjs-web-oauth.vercel.app",
-    codeLink: "https://github.com/paalamugan/nextjs-web-oauth-project",
+    codeLink: "",
     title: "Web OAuth",
     description:
       "Web OAuth Project developed using Next.js, NextAuth, Chakra UI, React, Redux, Redux Toolkit, TypeScript, Google OAuth, and more.",
@@ -32,7 +32,7 @@ export const worksData: ReadonlyArray<WorkData> = [
   {
     imgUrl: images.work.cryptocurrencyBitcoin,
     projectLink: "https://cryptocurrency-bitcoin.netlify.app",
-    codeLink: "https://github.com/paalamugan/cryptocurrency-bitcoin-price-chart",
+    codeLink: "",
     title: "Crypto Bitcoin Price Chart",
     description:
       "Cryptocurrency Bitcoin Price Chart was developed using React, Typescript, coingecko-api, react-chartjs-2, chart.js and tailwindcss.",
@@ -69,7 +69,7 @@ export const worksData: ReadonlyArray<WorkData> = [
   {
     imgUrl: images.work.translatorApplication,
     projectLink: "https://translator-application.vercel.app",
-    codeLink: "https://github.com/paalamugan/translator-mono-repo",
+    codeLink: "",
     title: "Translator Application",
     description:
       "It helps to translate from one language to multiple languages. It is developed using svelte, typescript, nodejs and more.",
@@ -77,8 +77,8 @@ export const worksData: ReadonlyArray<WorkData> = [
   },
   {
     imgUrl: images.work.portfolioWebsite,
-    projectLink: "https://paalamugan.com",
-    codeLink: "https://github.com/paalamugan/paalamugan-portfolio-nextjs",
+    projectLink: "",
+    codeLink: "",
     title: "Portfolio Website",
     description:
       "Portfolio Website developed for Full Stack Software Engineer with full responsiveness using Nextjs, Tailwindcss, SCSS, Typescript and more.",
