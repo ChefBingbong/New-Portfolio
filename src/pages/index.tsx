@@ -37,8 +37,8 @@ const LandingPage = () => {
       {withSection(About, "about")}
       {withSection(Knowledge, "about")}
       {withSection(Work, "work")}
+      {withSection(Skills, "experience")}
       {withSection(Publications, "research")}
-      {withSection(Skills, "skills")}
       {withSection(Section2, "research")}
 
       {withSection(Youtube, "youtube")}

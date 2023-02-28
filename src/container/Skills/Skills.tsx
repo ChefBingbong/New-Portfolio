@@ -137,4 +137,4 @@ const Skills: FunctionComponent = () => {
   );
 };
 
-export default AppWrap(MotionWrap(Skills), "skills", "bg-white");
+export default AppWrap(MotionWrap(Skills), "experience", "bg-white");

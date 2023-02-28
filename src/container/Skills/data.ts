@@ -55,11 +55,25 @@ export const experiences = [
         name: "Blockchain Protocol Researcher",
         company: "Dublin City University (School Of Computing)",
         desc: `
-          <div>n, I worked as a <strong>protocol researcher</strong> on the development of a Blockchain based RTD platform where DLT (Distributed Ledger Technology) is implemented with traditional academic frameworks </div>
+          <div>I worked as a <strong>protocol researcher</strong> on the development of a Blockchain based RTD platform where DLT (Distributed Ledger Technology) is implemented with traditional academic frameworks </div>
           <div>Assisted Leading the Research of underlying 
 blockchain Technologies, <strong>POS, Layer2-Scaling, ZKP’s (ZK-SNARKS), Consensus, / Governance protocols</strong> and more</div>
 <div> Developed a robust 
 <strong>theoretical governance model & economic framework</strong> to serve as the basis for the platform’s rules</div>
+        `,
+      },
+    ],
+  },
+  {
+    year: 2018,
+    works: [
+      {
+        name: "ComputationFluid Dynamics Research Intern",
+        company: "Dublin City University (School Of Physics)",
+        desc: `
+          <div>My role was to research and assist the <strong>development of in house computational techniques</strong> that can be used to no linear solve partial differential equations which describe the physics of complex dynamical systems mainly simple fluid slow. </div>
+          <div>One such program that i wrote was a <strong>higher order solver for the shallow water equations in 3D using the Finite volume method.</strong> As part of my work i also wrote a finite many finite difference and finite volume solvers for various equations as well as performing detailed stability and order of accuracy analysis for said systems. </div>
+<div> One area i focussed on was <strong>Von neuman stabilty analysis and spectral analyisis</strong> to determine regions of stable behaviour for many PDEs and to see for what values of input parameters such as the courant (CFL) number caused erratic and unstable behaviour. </div>
         `,
       },
     ],

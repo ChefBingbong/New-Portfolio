@@ -16,6 +16,8 @@ import useMediaQuery from "@app/hooks/useMediaQuery";
 
 import Menu from "./Menu";
 import { useRouter } from "next/router";
+import { FaPaperPlane } from '@react-icons/all-files/fa/FaPaperPlane';
+import { BiLoaderCircle } from '@react-icons/all-files/bi/BiLoaderCircle';
 
 const navbarVariants = {
   open: {
@@ -137,6 +139,15 @@ const Navbar = () => {
           </motion.div>
         </motion.div>
       )}
+      <div className="flex justify-center sm:justify-start">
+        <Link href={"/#contact"}
+          className="inline-flex items-center px-5 py-2 text-sm font-medium text-white border border-transparent rounded-md shadow-sm bg-primary hover:bg-primary/95"
+           onClick={() => setCurrentActiveLink("contact")} 
+        >
+          <FaPaperPlane className="mr-2" />
+          <span>Contact Me</span>
+        </Link>
+      </div>
     </nav>
   );
 };
