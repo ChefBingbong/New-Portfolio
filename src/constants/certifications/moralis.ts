@@ -1,7 +1,7 @@
-import EthereumDappProgramming from "@app/assets/certifications/EthereumDappProgramming.png";
-import EthereumGameProgramming from "@app/assets/certifications/EthereumGameProgramming.png";
-import EthereumSC101 from "@app/assets/certifications/EthereumSC101.png";
-import EthereumSC201 from "@app/assets/certifications/EthereumGameProgramming.png";
+import EthereumDappProgramming from "./images/EthereumDappProgramming.png";
+import EthereumGameProgramming from "./images/EthereumGameProgramming.png";
+import EthereumSC101 from "./images/EthereumSC101.png";
+import EthereumSC201 from "./images/EthereumSC201.png";
 
 
 
