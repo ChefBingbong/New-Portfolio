@@ -70,8 +70,8 @@ const About = () => {
               </div>
               <div>
                 <div className="text-[40px] font-tertiary text-primary mb-2">
-                  {inView ? <CountUp start={0} end={1000} duration={3} /> : null}
-                  s'
+                  {inView ? <CountUp start={0} end={10000} duration={3} /> : null}
+                  +
                 </div>
                 <div className="font-primary text-[17px] tracking-[2px]">
                   of Hours<br />

@@ -5,16 +5,12 @@ import Button from "public/svgs/button.svg";
 import WaveA from "public/svgs/astronaut-wave-A.svg";
 import WaveB from "public/svgs/astronaut-wave-B.svg";
 import Battery from "public/svgs/battery.svg";
-import Satellite from "public/svgs/satellite.svg";
-import Rocket from "public/svgs/rocket.svg";
 import LearnMoreButton from "./LearnMoreButton";
 
 import ReactCardFlip from "react-card-flip";
 import { HiOutlineXCircle } from "react-icons/hi";
 import { Container, Title, Description } from "./featureCard";
 import { AppWrap, MotionWrap } from "@app/wrapper";
-import MetaData from '@app/components/MetaData';
-import { getHeaderLink } from '@app/utils';
 
 
 interface CrossButtonProps {
@@ -51,7 +47,7 @@ function Section2() {
   return (
     <div id="features" className="flex flex-col items-center pt-8">
       <h2 className="max-w-[20ch] text-center px-4 lg:px-0 text-3xl lg:text-5xl font-extrabold tracking-wide">
-        Some Areas In Defi I've been <span className="text-primary">Researching</span>
+        Some Areas In Defi Ive been <span className="text-primary">Researching</span>
       </h2>
       <div className="grid gap-8 my-12 lg:my-16 md:grid-cols-2 lg:grid-cols-[308px_324px_416px] lg:w-auto">
         {/* One click, zero gas trades */}
@@ -102,8 +98,8 @@ function Section2() {
         <Container className="flex flex-col items-center justify-center gap-4 p-11 lg:p-14 md:order-3 lg:order-none">
           <Title className="text-3xl">Defi Math</Title>
           <Description className="text-center">
-            Im always learning about the financial algorithms behind thing slike AMM's,
-            automated staking rewards/yield, and POS consensus mechanisms
+            Im always learning about the financial algorithms behind thing slike AMMs, automated
+            staking rewards/yield, and POS consensus mechanisms
           </Description>
         </Container>
 
@@ -115,22 +111,34 @@ function Section2() {
         >
           <Container className="flex h-[445px] md:h-full items-center justify-center bg-[url('/svgs/hexagon-bg.svg')] bg-no-repeat bg-origin-border bg-center bg-cover">
             <div className="flex flex-col items-center mt-4">
-              <Title className="w-[300px] text-3xl text-center lg:h-auto text-white">Ultra Fast cross-chain Transfers</Title>
-              <LearnMoreButton onClick={() => flip(Cards.ultraSecure, true)} className={"border-white text-white"}/>
+              <Title className="w-[300px] text-3xl text-center lg:h-auto text-white">
+                Ultra Fast cross-chain Transfers
+              </Title>
+              <LearnMoreButton
+                onClick={() => flip(Cards.ultraSecure, true)}
+                className={"border-white text-white"}
+              />
             </div>
           </Container>
 
           <Container className="flex items-center justify-center h-[445px] md:h-full">
             <CrossButton onClick={() => flip(Cards.ultraSecure, false)} />
             <div className="flex flex-col items-center gap-2 px-4">
-              <Title className="w-full text-lg text-center lg:text-left ">Cross chain transfers are slow</Title>
+              <Title className="w-full text-lg text-center lg:text-left ">
+                Cross chain transfers are slow
+              </Title>
               <Description className="text-center lg:text-left text-[15px]">
-                bridging takes time. The concept of a lender
-                fixes all of this. With a lender one can execute a bridge on source chain. when this bridge is confirmed we know the user
+                bridging takes time. The concept of a lender fixes all of this. With a lender one
+                can execute a bridge on source chain. when this bridge is confirmed we know the user
                 has already paid the assets they are moving.
-                <br/><br/>As this is confirmed we can use a lender smart contract with collateroal to execute the trade on the destination chain 
-                immediately. 
-                <br/><br/>Then when the bridge is complete the users funds go back to pay the lender. This makes doing cross chain trading super fast.
+                <br />
+                <br />
+                As this is confirmed we can use a lender smart contract with collateroal to execute
+                the trade on the destination chain immediately.
+                <br />
+                <br />
+                Then when the bridge is complete the users funds go back to pay the lender. This
+                makes doing cross chain trading super fast.
               </Description>
             </div>
           </Container>
@@ -148,8 +156,10 @@ function Section2() {
               <LearnMoreButton onClick={() => flip(Cards.freeTransfer, true)} />
             </div>
             <div className="flex justify-between flex-1 p-5 lg:p-0">
-              <WaveA className="w-36 lg:w-48" />
-              <WaveB className="w-36 lg:w-48" />
+              {/* <WaveA className="w-36 lg:w-48" /> */}
+              <Image src={WaveA} alt="wavea" className="w-36 lg:w-48" />
+              <Image src={WaveB} alt="waveb" className="w-36 lg:w-48" />
+              {/* <WaveB className="w-36 lg:w-48" /> */}
             </div>
           </Container>
           <Container className="relative flex flex-col justify-between lg:h-52 h-[342px] lg:flex-row lg:p-6">
@@ -180,7 +190,7 @@ function Section2() {
               </Title>
               <LearnMoreButton onClick={() => flip(Cards.atomic, true)} />
             </div>
-            <Battery />
+            <Image src={Battery} alt="battery" />
           </Container>
           <Container className="flex flex-col items-center gap-10 p-6 lg:gap-0 h-[570px] lg:h-full lg:flex-row lg:justify-between">
             <CrossButton onClick={() => flip(Cards.atomic, false)} />
@@ -189,9 +199,9 @@ function Section2() {
                 Cross-chain AMM Limit Orders
               </Title>
               <Description className="text-center lg:text-left">
-                One thing that AMM's cannot do well is to execute Limit orders. This is because
-                smart contracts cannot listen to external off-chain data sources in order to know
-                when to execute a trade. Also if they could how would the gas tokens be paid.
+                One thing that AMMs cannot do well is to execute Limit orders. This is because smart
+                contracts cannot listen to external off-chain data sources in order to know when to
+                execute a trade. Also if they could how would the gas tokens be paid.
                 <br />
                 <br />
                 By using hats called a forwarder smart contract (smilar to above) a user can again,
@@ -211,26 +221,33 @@ function Section2() {
         {/* from avax to zcash */}
         <Container className="flex flex-col items-center justify-center gap-4 p-8 lg:p-14 md:order-7 lg:order-none">
           <Title className="text-3xl w-52">
-            From{" "}
-            <span className="whitespace-nowrap">
-              Avax <Image src="/images/avax.png" alt="avax" width={24} height={24} />{" "}
-            </span>{" "}
-            to{" "}
-            <span className="whitespace-nowrap">
-              Zcash <Image src="/images/zcash.png" alt="zcash" width={24} height={24} />{" "}
-            </span>
+            <div className="flex mb-2">
+              From{" "}
+              <div className=" flex gap-2">
+                Avax <Image src="/images/avax.png" alt="avax" width={35} height={24} />{" "}
+              </div>{" "}
+            </div>
+            <div className="flex">
+              to{" "}
+              <div className="flex gap-2">
+                Zcash <Image src="/images/zcash.png" alt="zcash" width={35} height={24} />{" "}
+              </div>
+            </div>
           </Title>
           <Description className="text-center">
-            Using all of these techniques one could for example, bridge native Bitcoin to Avalanche using a bridging service like RenJs
-            and swap wrapped BTC for AVAX. The same holds true for any asset on any chain
+            Using all of these techniques one could for example, bridge native Bitcoin to Avalanche
+            using a bridging service like RenJs and swap wrapped BTC for AVAX. The same holds true
+            for any asset on any chain
           </Description>
         </Container>
         <Container className="flex flex-col items-center justify-end gap-5 px-8 pt-8 md:order-1 lg:order-none ">
           <Title className="text-3xl text-center">Im Always Hitting Commit</Title>
           <Description className="max-w-lg text-[15px] text-center">
-            These are just some things i like researching. Im always putting my new knowledge into practice by building cool applications
+            These are just some things i like researching. Im always putting my new knowledge into
+            practice by building cool applications
           </Description>
-          <Button />
+          {/* <Button /> */}
+          <Image src={Button} alt="button" />
         </Container>
 
         {/* Trade freely */}
@@ -259,7 +276,7 @@ function Section2() {
                 <br />
                 <br />
                 I am always learning about new developments in Defi around ever growing protocols
-                around concepts such as AMM's and decentralised lending.
+                around concepts such as AMMs and decentralised lending.
                 <br />
                 <br />
                 In my spare time i am always building and learning about the underlying protocols,
@@ -274,4 +291,4 @@ function Section2() {
   );
 }
 
-export default AppWrap(MotionWrap(Section2), "skills", "bg-secondary");
+export default AppWrap(MotionWrap(Section2), "research", "bg-secondary");

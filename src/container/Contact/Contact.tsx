@@ -13,8 +13,8 @@ import useIntersectionObserver from "@app/hooks/useIntersectionObserver";
 import style from "./Contact.module.scss";
 import ToastifySuccess, { ToastifySuccessRef } from "@app/components/Toastify/ToastifySuccess";
 
-const RESUME_URL = "/EvanMcGraneMastercard.pdf";
-const RESUME_DOWNLOAD_FILE_NAME = "EvanMcGraneMastercard.pdf";
+const RESUME_URL = "/paalamugan-software-engineer-resume.pdf";
+const RESUME_DOWNLOAD_FILE_NAME = "paalamugan-software-engineer-resume.pdf";
 
 const Contact = () => {
   const [formData, setFormData] = useState<ContactFormData>({
@@ -88,7 +88,7 @@ const Contact = () => {
                 <p>
                   Don&apos;t like forms? Send me an
                   <a
-                    href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=evan.mcgrane5@mail.dcu.ie&amp;cc=evan.mcgrane5@mail.dcu.ie&amp;su=Need to discuss with you Mr. Evan McGrane&amp;body=Hi there, I need to talk"
+                    href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=contact@paalamugan.com&amp;cc=work@paalamugan.com&amp;su=Need to discuss with you Mr. Paalamugan&amp;body=Hi there, I need to talk"
                     target="_blank"
                     className={style["mail_text"]}
                     rel="noreferrer noopener"
@@ -105,7 +105,7 @@ const Contact = () => {
                   </span>
                   <div>
                     <h4>Email</h4>
-                    <p>evan.mcgrane5@mail.dcu.ie</p>
+                    <p>contact@paalamugan.com</p>
                   </div>
                 </div>
                 {isSocialMediaInterSecting && (
@@ -142,7 +142,7 @@ const Contact = () => {
                   </span>
                   <div>
                     <h4>Location</h4>
-                    <p>Dublin, Ireland</p>
+                    <p>Chennai, India</p>
                   </div>
                 </div>
                 <div className={style["contact_info"]}>

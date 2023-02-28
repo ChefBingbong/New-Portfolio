@@ -5,11 +5,7 @@ import MetaData, { getMetaImageUrl } from "@app/components/MetaData";
 import config from "@app/config";
 import images from "@app/constants/images";
 import { dmSans } from "@app/fonts/dm-sans";
-import React from "react"
-import CssBaseline from "@material-ui/core/CssBaseline";
-import { ThemeProvider } from "@material-ui/core";
-import { lightTheme } from "@app/theme/theme";
-import { MuiThemeProvider } from "@material-ui/core";
+import React from "react";
 
 const suffixTitle = "Paalamugan || Senior Software Engineer";
 
@@ -24,13 +20,13 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
   let newImage = image || images.homePage;
   newImage.src = getMetaImageUrl(newSiteUrl, newImage.src);
 
-    React.useEffect(() => {
-      // Remove the server-side injected CSS.
-      const jssStyles = document.querySelector("#jss-server-side");
-      if (jssStyles) {
-        jssStyles.parentElement?.removeChild(jssStyles);
-      }
-    }, []);
+  React.useEffect(() => {
+    // Remove the server-side injected CSS.
+    const jssStyles = document.querySelector("#jss-server-side");
+    if (jssStyles) {
+      jssStyles.parentElement?.removeChild(jssStyles);
+    }
+  }, []);
 
   return (
     <>
@@ -45,10 +41,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
         title={newTitle}
         description={newDescription}
       />
-      <MuiThemeProvider theme={lightTheme}>
-        <CssBaseline/>
-        <Component {...pageProps} />
-      </MuiThemeProvider>
+      <Component {...pageProps} />
     </>
   );
 };

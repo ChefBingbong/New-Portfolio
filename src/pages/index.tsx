@@ -35,11 +35,11 @@ const LandingPage = () => {
     <MainLayout>
       {withSection(Home, "home")}
       {withSection(About, "about")}
-      {withSection(Knowledge, "knowledge")}
+      {withSection(Knowledge, "about")}
       {withSection(Work, "work")}
-      {withSection(Publications, "publications")}
+      {withSection(Publications, "research")}
       {withSection(Skills, "skills")}
-      {withSection(Section2, "moreinfo")}
+      {withSection(Section2, "research")}
 
       {withSection(Youtube, "youtube")}
       {withSection(Certifications, "certifications")}
