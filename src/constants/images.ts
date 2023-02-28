@@ -38,6 +38,7 @@ import surveyOfCrypto from "../assets/work/SurveyofCryptoAdoption.png";
 import decentralisedPeerReview from "../assets/work/decentralisedPeerReviewModel.png";
 import defiMath from "../assets/work/Defimath.png";
 
+
 const work = {
   angular12Boilerplate,
   cmsBlog,
@@ -54,7 +55,7 @@ const work = {
   cryptoExploer,
   parallelWallets,
   web3login,
-  backendCode,
+  backendCode
 };
 
 const publications = {
