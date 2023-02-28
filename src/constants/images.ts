@@ -31,11 +31,11 @@ import gatsbyItekscope from "../assets/work/gatsby-itekscope.png";
 import portfolioWebsite from "../assets/work/portfolio-website.png";
 import cryptoExploer from "./certifications/images/crypto-explorer.png";
 import astralBridge1 from "./certifications/images/Astral-bridge.png";
-import parallelWallets from "../assets/work/parrallelwallets.png";
-import web3login from "../assets/work/web3login.png";
-import backendCode from "../assets/work/backendcode1.png";
-import surveyOfCrypto from "../assets/work/SurveyofCryptoAdoption.png";
-import decentralisedPeerReview from "../assets/work/decentralisedPeerReviewModel.png";
+import parallelWallets from "./certifications/images/parrallelwallets.png";
+import web3login from "./certifications/images/web3login.png";
+import backendCode from "./certifications/images/backendcode1.png";
+import surveyOfCrypto from "./certifications/images/SurveyofCryptoAdoption.png";
+import decentralisedPeerReview from "./certifications/images/decentralisedPeerReviewModel.png";
 import defiMath from "../assets/work/Defimath.png";
 
 
