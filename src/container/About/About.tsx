@@ -1,5 +1,5 @@
 import { AppWrap, MotionWrap } from "@app/wrapper";
-import { getTotalExperience } from "@app/utils";
+
 import useIntersectionObserver from "@app/hooks/useIntersectionObserver";
 
 import LottieAnimation from "./LottieAnimation";
@@ -15,7 +15,7 @@ import { motion } from "framer-motion";
 // variant
 
 const About = () => {
-  const { year } = getTotalExperience();
+ 
   const [isIntersecting, ref] = useIntersectionObserver();
 
     const [ref1, inView] = useInView({
