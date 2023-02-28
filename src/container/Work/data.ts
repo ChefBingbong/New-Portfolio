@@ -84,6 +84,42 @@ export const worksData: ReadonlyArray<WorkData> = [
       "Portfolio Website developed for Full Stack Software Engineer with full responsiveness using Nextjs, Tailwindcss, SCSS, Typescript and more.",
     tags: ["nextjs", "reactjs", "tailwindcss", "typescript"],
   },
+  {
+    imgUrl: images.work.backendCode,
+    projectLink: "https://github.com/mcgraneder/astral-sol",
+    codeLink: "https://github.com/mcgraneder/astral-sol",
+    title: "Crosschain AMM Contracts",
+    description:
+      "Solidity smart contracts for the Cross chain DEX i am currently working on. I use Renjs for bridging and intrface with the uniswap V3 contracts to preform swaps",
+    tags: ["solidity", "nodejs"],
+  },
+  {
+    imgUrl: images.work.backendCode,
+    projectLink: "https://github.com/mcgraneder/MoralisChallenges/tree/main/MORALIS",
+    codeLink: "https://github.com/mcgraneder/MoralisChallenges/tree/main/MORALIS",
+    title: "Gambling Contracts",
+    description:
+      "Solidity smart contracts for a gambling service that allows users to stake crypto assets in order to double their money. I use chainlink keepers and VRF for on chain randomness. In order to pay the chainlink fee i take a subsidy from the users bet to swap for LINK on uniswap to cover the fee",
+    tags: ["solidity", "nodejs"],
+  },
+  {
+    imgUrl: images.work.backendCode,
+    projectLink: "https://github.com/mcgraneder/SimpleDecentralisedExchange",
+    codeLink: "https://github.com/mcgraneder/SimpleDecentralisedExchange",
+    title: "Limit Order DEX",
+    description:
+      "Solidity smart contracts for a limit order, orderbook style dex that matches users orders in two queuses (a buy and sell queue). I use bubble sort to dynamicall order trades by price so the top trades always match each other",
+    tags: ["solidity", "nodejs"],
+  },
+  {
+    imgUrl: images.work.backendCode,
+    projectLink: "https://github.com/mcgraneder/Etherem-MultiSigWallet-Dapp",
+    codeLink: "https://github.com/mcgraneder/Etherem-MultiSigWallet-Dapp",
+    title: "Multi-signature Wallet",
+    description:
+      "Solidity smart contracts for a multi sig wallet that allows users to create instances of a consensus based wallet. users can transfer native and ERC20 assets. In order for transfers to execute a majority consensus of agreement must be reached between all wallet owners",
+    tags: ["solidity", "nodejs"],
+  },
 ];
 
 export const workTabs = [
@@ -102,5 +138,9 @@ export const workTabs = [
   {
     id: "reactjs",
     name: "React",
+  },
+  {
+    id: "solidity",
+    name: "Solidity",
   },
 ] as const;

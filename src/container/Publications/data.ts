@@ -1,7 +1,9 @@
 import { images } from "@app/constants";
 import { WorkData } from "@app/types";
 
-export const worksData: ReadonlyArray<WorkData> = [
+export const worksData: ReadonlyArray<WorkData & {
+  downloadLink: string
+}> = [
   {
     imgUrl: images.publications.surveyOfCrypto,
     projectLink: "https://astral-bridge.onrender.com/home",
@@ -10,6 +12,7 @@ export const worksData: ReadonlyArray<WorkData> = [
     description:
       "Litreature review that discusses and analyses the potential of a distributed blockchain model being adopted to remodel different frameworks in Academia such as Peer-review",
     tags: ["noncryptoBlockchainUsecases", "typescript", "nodejs"],
+    downloadLink: ""
   },
   {
     imgUrl: images.publications.decentralisedPeerReview,
@@ -19,6 +22,7 @@ export const worksData: ReadonlyArray<WorkData> = [
     description:
       "This paper propses an Proof Of Stake (POS) distributed model that uses game theory and crypto incentive tactics to create a decentraised peer review model that distributes wealth and reputation amoungst the community",
     tags: ["noncryptoBlockchainUsecases", "typescript"],
+    downloadLink: ""
   },
   {
     imgUrl: images.publications.defiMath,
@@ -28,6 +32,7 @@ export const worksData: ReadonlyArray<WorkData> = [
     description:
       "Paper exploring the mathematics behind concepts in Defi such as Automated market makers (CPAMM's) aswell as efficent algorithms for executing flash loan arbitrage",
     tags: ["financial", "typescript"],
+    downloadLink: ""
   },
 ];
 
