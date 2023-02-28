@@ -45,7 +45,7 @@ function Section2() {
   const flip = (key: string, value: boolean) => setFlipped((f) => ({ ...f, [key]: value }));
 
   return (
-    <div id="features" className="flex flex-col items-center pt-8">
+    <div id="features" className="flex flex-col items-center pt-8 ">
       <h2 className="max-w-[20ch] text-center px-4 lg:px-0 text-3xl lg:text-5xl font-extrabold tracking-wide">
         Some Areas In Defi Ive been <span className="text-primary">Researching</span>
       </h2>

@@ -6,7 +6,7 @@ interface Props {
 export const Container = ({ children, className = "", ...rest }: Props) => {
   return (
     <div
-      className={`bg-white w-[343px] lg:w-auto rounded-2xl overflow-hidden relative shadow-xl ${className}`}
+      className={`bg-white w-[343px] lg:w-auto rounded-2xl overflow-hidden relative drop-shadow-2xl ${className}`}
       {...rest}
     >
       {children}
