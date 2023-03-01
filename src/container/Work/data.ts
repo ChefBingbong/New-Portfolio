@@ -4,7 +4,7 @@ import { WorkData } from "@app/types";
 export const worksData: ReadonlyArray<WorkData> = [
   {
     imgUrl: images.work.cryptoExploer,
-    projectLink: "https://blockchain-explorer-qwd7l0fnd-mcgraneder.vercel.app/en/explorerHome",
+    projectLink: "https://blockchain-explorer-theta.vercel.app/en/explorerHome",
     codeLink: "https://github.com/mcgraneder/blockchain_explorer",
     title: "Blockchain exploer & indexer",
     description:
@@ -13,7 +13,7 @@ export const worksData: ReadonlyArray<WorkData> = [
   },
   {
     imgUrl: images.work.astralBridge1,
-    projectLink: "https://astral-bridge-ar7jagswi-mcgraneder.vercel.app/home",
+    projectLink: "https://astral-bridge.vercel.app/home",
     codeLink: "https://github.com/mcgraneder/Astral-Bridge",
     title: "Cross-chain Crypto Bridge/Dex",
     description:
