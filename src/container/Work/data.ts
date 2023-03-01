@@ -3,22 +3,22 @@ import { WorkData } from "@app/types";
 
 export const worksData: ReadonlyArray<WorkData> = [
   {
-    imgUrl: images.work.astralBridge1,
-    projectLink: "https://astral-bridge.onrender.com/home",
-    codeLink: "https://github.com/mcgraneder/Astral-Bridge",
-    title: "Cross-chain Crypto Bridge/Dex",
-    description:
-      "Full cross chain cryptocurrency bridge that supports 9 EVM chains. Users can bridge synthetic assets and swap on desired chains. Next.js Node.js MongoDB Postgresql Typescript Web3-React Ethers.js Web3.js Ren.js Prisma tRPC, ZOD Render",
-    tags: ["nextjs", "typescript", "nodejs"],
-  },
-  {
     imgUrl: images.work.cryptoExploer,
-    projectLink: "https://catalog-explorer.onrender.com/explorerHome",
+    projectLink: "https://blockchain-explorer-qwd7l0fnd-mcgraneder.vercel.app/en/explorerHome",
     codeLink: "https://github.com/mcgraneder/blockchain_explorer",
     title: "Blockchain exploer & indexer",
     description:
       "Full stack Etherscan like blockchain explorer for Ren L1 blockchain. Users can query blocks, transactions, ENS addresses and more. Features a bytecode decoder to extract error logs, event logs and smart contract input data info. React.js, Typescript, Node.js",
     tags: ["nextjs", "typescript"],
+  },
+  {
+    imgUrl: images.work.astralBridge1,
+    projectLink: "https://astral-bridge-ar7jagswi-mcgraneder.vercel.app/home",
+    codeLink: "https://github.com/mcgraneder/Astral-Bridge",
+    title: "Cross-chain Crypto Bridge/Dex",
+    description:
+      "Full cross chain cryptocurrency bridge that supports 9 EVM chains. Users can bridge synthetic assets and swap on desired chains. Next.js Node.js MongoDB Postgresql Typescript Web3-React Ethers.js Web3.js Ren.js Prisma tRPC, ZOD Render",
+    tags: ["nextjs", "typescript", "nodejs"],
   },
   {
     imgUrl: images.work.nextjsWebOAuth,
