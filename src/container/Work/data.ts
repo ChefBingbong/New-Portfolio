@@ -49,7 +49,7 @@ export const worksData: ReadonlyArray<WorkData> = [
   },
   {
     imgUrl: images.work.web3login,
-    projectLink: "https://github.com/mcgraneder/Celestium-DEX-InterfaceV1",
+    projectLink: "https://main--legendary-pithivier-efc9ea.netlify.app/",
     codeLink: "https://github.com/mcgraneder/Celestium-DEX-InterfaceV1",
     title: "Web3 ECDSA Cryptographic Login System",
     description:
