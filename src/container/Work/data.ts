@@ -20,6 +20,24 @@ export const worksData: ReadonlyArray<WorkData> = [
       "Full cross chain cryptocurrency bridge that supports 9 EVM chains. Users can bridge synthetic assets and swap on desired chains. Next.js Node.js MongoDB Postgresql Typescript Web3-React Ethers.js Web3.js Ren.js Prisma tRPC, ZOD Render",
     tags: ["nextjs", "typescript", "nodejs"],
   },
+    {
+    imgUrl: images.work.daisynft,
+    projectLink: "https://github.com/mcgraneder/daisy-nft-marketplace",
+    codeLink: "https://nft-marketplace-one-phi.vercel.app/",
+    title: "NFT Marketplace",
+    description:
+      "Fullstack NFT Marketplace application using Next.js Typescript and Solidity. The app integrates with the Piniata NFT sdk for handling user NFT metadata. Users can mint their own custom NFTS assign them attributes and sell them for a given price.",
+    tags: ["nextjs", "typescript", "solidity"],
+  },
+   {
+    imgUrl: images.work.parallelWallets,
+    projectLink: "https://web3-crosschainwallet-demo.vercel.app/fund",
+    codeLink: "https://github.com/mcgraneder/parrellel-wallets",
+    title: "Multi-chain Wallet System Package Demo",
+    description:
+      "Web3 wallet NPM Package Concept sandbox that allows users to connect to multiple wallets on different chains simultaneously in order to submit multiple paralle txs. This allows app users to abstract the need to show users what chain they're on. React.js Typescript, Ren.js Node.js",
+    tags: ["nextjs", "reactjs", "typescript"],
+  },
   {
     imgUrl: images.work.nextjsWebOAuth,
     projectLink: "https://nextjs-web-oauth.vercel.app",
@@ -37,15 +55,6 @@ export const worksData: ReadonlyArray<WorkData> = [
     description:
       "Cryptocurrency Bitcoin Price Chart was developed using React, Typescript, coingecko-api, react-chartjs-2, chart.js and tailwindcss.",
     tags: ["reactjs", "typescript", "tailwindcss"],
-  },
-  {
-    imgUrl: images.work.parallelWallets,
-    projectLink: "https://github.com/mcgraneder/parrellel-wallets",
-    codeLink: "https://github.com/mcgraneder/parrellel-wallets",
-    title: "Multi-chain Wallet System Package Demo",
-    description:
-      "Web3 wallet NPM Package Concept sandbox that allows users to connect to multiple wallets on different chains simultaneously in order to submit multiple paralle txs. This allows app users to abstract the need to show users what chain they're on. React.js Typescript, Ren.js Node.js",
-    tags: ["nextjs", "reactjs", "typescript"],
   },
   {
     imgUrl: images.work.web3login,

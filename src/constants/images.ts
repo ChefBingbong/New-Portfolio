@@ -37,6 +37,8 @@ import backendCode from "./certifications/images/backendcode1.png";
 import surveyOfCrypto from "./certifications/images/SurveyofCryptoAdoption.png";
 import decentralisedPeerReview from "./certifications/images/decentralisedPeerReviewModel.png";
 import defiMath from "./certifications/images/Defimath.png";
+import daisynft from "../assets/work/DaisyNFT.png";
+
 
 
 const work = {
@@ -55,7 +57,9 @@ const work = {
   cryptoExploer,
   parallelWallets,
   web3login,
-  backendCode
+  backendCode,
+  daisynft
+
 };
 
 const publications = {
@@ -81,7 +85,7 @@ const images = {
   sun,
   moon,
   work,
-  publications
+  publications,
 };
 
 export default images;
