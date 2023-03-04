@@ -58,10 +58,7 @@ const renderWorkItem = (work: WorkData) => {
 
       <div className={style["app__work-portfolio-content"]}>
         <div className="flex items-center text-lg bold-text mt-4 leading-normal">
-          <div
-            className="flex-1 mr-1 overflow-hidden text-ellipsis whitespace-nowrap"
-            title={work.title}
-          >
+          <div className="flex-1 mr-1 overflow-hidden text-ellipsis break-words" title={work.title}>
             {work.title}
           </div>
           <div className="flex gap-2">

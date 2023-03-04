@@ -38,6 +38,8 @@ import surveyOfCrypto from "./certifications/images/SurveyofCryptoAdoption.png";
 import decentralisedPeerReview from "./certifications/images/decentralisedPeerReviewModel.png";
 import defiMath from "./certifications/images/Defimath.png";
 import daisynft from "../assets/work/DaisyNFT.png";
+import macroswap from "../assets/work/DaisyNFT.png";
+
 
 
 
@@ -58,7 +60,8 @@ const work = {
   parallelWallets,
   web3login,
   backendCode,
-  daisynft
+  daisynft,
+  macroswap
 
 };
 
