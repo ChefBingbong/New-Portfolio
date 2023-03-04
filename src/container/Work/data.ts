@@ -21,13 +21,13 @@ export const worksData: ReadonlyArray<WorkData> = [
     tags: ["nextjs", "typescript"],
   },
   {
-    imgUrl: images.work.macroswap,
-    projectLink: "https://blockchain-explorer-theta.vercel.app/en/explorerHome",
-    codeLink: "https://github.com/mcgraneder/blockchain_explorer",
-    title: "Blockchain exploer & indexer",
+    imgUrl: images.work.parallelWallets,
+    projectLink: "https://web3-crosschainwallet-demo.vercel.app/fund",
+    codeLink: "https://github.com/mcgraneder/web3-crosschainwallet-demo",
+    title: "Multi-chain Wallet System Package Demo",
     description:
-      "Full stack Etherscan like blockchain explorer for Ren L1 blockchain. Users can query blocks, transactions, ENS addresses and more. Features a bytecode decoder to extract error logs, event logs and smart contract input data info. React.js, Typescript, Node.js",
-    tags: ["nextjs", "typescript"],
+      "Web3 wallet NPM Package Concept sandbox that allows users to connect to multiple wallets on different chains simultaneously in order to submit multiple paralle txs. This allows app users to abstract the need to show users what chain they're on. React.js Typescript, Ren.js Node.js",
+    tags: ["nextjs", "reactjs", "typescript"],
   },
   {
     imgUrl: images.work.daisynft,
@@ -36,7 +36,7 @@ export const worksData: ReadonlyArray<WorkData> = [
     title: "NFT Marketplace",
     description:
       "Fullstack NFT Marketplace application using Next.js Typescript and Solidity. The app integrates with the Piniata NFT sdk for handling user NFT metadata. Users can mint their own custom NFTS assign them attributes and sell them for a given price.",
-    tags: ["nextjs", "typescript", "solidity"],
+    tags: ["reactjs", "typescript", "solidity"],
   },
   {
     imgUrl: images.work.web3login,
@@ -46,15 +46,6 @@ export const worksData: ReadonlyArray<WorkData> = [
     description:
       "Web3 eliptic curve digital signature & email based login system Concept using ENS verification and Mongo DB database",
     tags: ["Nodejs", "reactjs", "typescript, nodejs"],
-  },
-  {
-    imgUrl: images.work.parallelWallets,
-    projectLink: "https://web3-crosschainwallet-demo.vercel.app/fund",
-    codeLink: "https://github.com/mcgraneder/web3-crosschainwallet-demo",
-    title: "Multi-chain Wallet System Package Demo",
-    description:
-      "Web3 wallet NPM Package Concept sandbox that allows users to connect to multiple wallets on different chains simultaneously in order to submit multiple paralle txs. This allows app users to abstract the need to show users what chain they're on. React.js Typescript, Ren.js Node.js",
-    tags: ["nextjs", "reactjs", "typescript"],
   },
   {
     imgUrl: images.work.nextjsWebOAuth,
