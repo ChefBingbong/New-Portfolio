@@ -3,6 +3,15 @@ import { WorkData } from "@app/types";
 
 export const worksData: ReadonlyArray<WorkData> = [
   {
+    imgUrl: images.work.portfolio,
+    projectLink: "https://github.com/mcgraneder/New-Portfolio",
+    codeLink: "https://github.com/mcgraneder/New-Portfolio",
+    title: "Portfolio Website",
+    description:
+      "Portfolio Website developed for Full Stack Software Engineer with full responsiveness using Nextjs, Tailwindcss, SCSS, Typescript and more.",
+    tags: ["nextjs", "reactjs", "tailwindcss", "typescript"],
+  },
+  {
     imgUrl: images.work.astralBridge1,
     projectLink: "https://astral-bridge.vercel.app/home",
     codeLink: "https://github.com/mcgraneder/Astral-Bridge",
@@ -74,15 +83,6 @@ export const worksData: ReadonlyArray<WorkData> = [
     description:
       "Custom build Arb bot with Node.js/Solididty which can arbiyrage DAI/WETH across Uniswap/Suishiswap and 2 other exchanges using flashloans",
     tags: ["nodejs", "typescript"],
-  },
-  {
-    imgUrl: images.work.portfolio,
-    projectLink: "",
-    codeLink: "",
-    title: "Portfolio Website",
-    description:
-      "Portfolio Website developed for Full Stack Software Engineer with full responsiveness using Nextjs, Tailwindcss, SCSS, Typescript and more.",
-    tags: ["nextjs", "reactjs", "tailwindcss", "typescript"],
   },
   {
     imgUrl: images.work.translatorApplication,
