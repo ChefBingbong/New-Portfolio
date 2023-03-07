@@ -31,21 +31,12 @@ export const worksData: ReadonlyArray<WorkData> = [
   },
   {
     imgUrl: images.work.daisynft,
-    projectLink: "https://github.com/mcgraneder/daisy-nft-marketplace",
+    projectLink: "https://github.com/mcgraneder/daisy-nft-marketplace/create",
     codeLink: "https://nft-marketplace-one-phi.vercel.app/",
     title: "NFT Marketplace",
     description:
       "Fullstack NFT Marketplace application using Next.js Typescript and Solidity. The app integrates with the Piniata NFT sdk for handling user NFT metadata. Users can mint their own custom NFTS assign them attributes and sell them for a given price.",
     tags: ["reactjs", "typescript", "solidity"],
-  },
-  {
-    imgUrl: images.work.web3login,
-    projectLink: "https://main--legendary-pithivier-efc9ea.netlify.app/",
-    codeLink: "https://github.com/mcgraneder/Celestium-DEX-InterfaceV1",
-    title: "Web3 ECDSA Cryptographic Login System",
-    description:
-      "Web3 eliptic curve digital signature & email based login system Concept using ENS verification and Mongo DB database",
-    tags: ["Nodejs", "reactjs", "typescript, nodejs"],
   },
   {
     imgUrl: images.work.nextjsWebOAuth,
@@ -55,6 +46,15 @@ export const worksData: ReadonlyArray<WorkData> = [
     description:
       "Web OAuth Project developed using Next.js, NextAuth, Chakra UI, React, Redux, Redux Toolkit, TypeScript, Google OAuth, and more.",
     tags: ["nextjs", "typescript"],
+  },
+  {
+    imgUrl: images.work.web3login,
+    projectLink: "https://main--legendary-pithivier-efc9ea.netlify.app/",
+    codeLink: "https://github.com/mcgraneder/Celestium-DEX-InterfaceV1",
+    title: "Web3 ECDSA Cryptographic Login System",
+    description:
+      "Web3 eliptic curve digital signature & email based login system Concept using ENS verification and Mongo DB database",
+    tags: ["Nodejs", "reactjs", "typescript, nodejs"],
   },
   {
     imgUrl: images.work.cryptocurrencyBitcoin,
@@ -85,7 +85,7 @@ export const worksData: ReadonlyArray<WorkData> = [
     tags: ["nodejs", "svelte", "typescript"],
   },
   {
-    imgUrl: images.work.portfolioWebsite,
+    imgUrl: images.work.portfolio,
     projectLink: "",
     codeLink: "",
     title: "Portfolio Website",

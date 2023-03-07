@@ -39,6 +39,8 @@ import decentralisedPeerReview from "./certifications/images/decentralisedPeerRe
 import defiMath from "./certifications/images/Defimath.png";
 import daisynft from "../assets/work/DaisyNFT.png";
 import macroswap from "../assets/work/DaisyNFT.png";
+import portfolio from "../assets/work/portfoliosc.png";
+
 
 
 
@@ -61,8 +63,8 @@ const work = {
   web3login,
   backendCode,
   daisynft,
-  macroswap
-
+  macroswap,
+  portfolio,
 };
 
 const publications = {
