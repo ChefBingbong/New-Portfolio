@@ -31,8 +31,8 @@ export const worksData: ReadonlyArray<WorkData> = [
   },
   {
     imgUrl: images.work.daisynft,
-    projectLink: "https://github.com/mcgraneder/daisy-nft-marketplace/create",
-    codeLink: "https://nft-marketplace-one-phi.vercel.app/",
+    codeLink: "https://github.com/mcgraneder/daisy-nft-marketplace",
+    projectLink: "https://nft-marketplace-one-phi.vercel.app/create",
     title: "NFT Marketplace",
     description:
       "Fullstack NFT Marketplace application using Next.js Typescript and Solidity. The app integrates with the Piniata NFT sdk for handling user NFT metadata. Users can mint their own custom NFTS assign them attributes and sell them for a given price.",
@@ -76,15 +76,6 @@ export const worksData: ReadonlyArray<WorkData> = [
     tags: ["nodejs", "typescript"],
   },
   {
-    imgUrl: images.work.translatorApplication,
-    projectLink: "https://translator-application.vercel.app",
-    codeLink: "",
-    title: "Translator Application",
-    description:
-      "It helps to translate from one language to multiple languages. It is developed using svelte, typescript, nodejs and more.",
-    tags: ["nodejs", "svelte", "typescript"],
-  },
-  {
     imgUrl: images.work.portfolio,
     projectLink: "",
     codeLink: "",
@@ -92,6 +83,15 @@ export const worksData: ReadonlyArray<WorkData> = [
     description:
       "Portfolio Website developed for Full Stack Software Engineer with full responsiveness using Nextjs, Tailwindcss, SCSS, Typescript and more.",
     tags: ["nextjs", "reactjs", "tailwindcss", "typescript"],
+  },
+  {
+    imgUrl: images.work.translatorApplication,
+    projectLink: "https://translator-application.vercel.app",
+    codeLink: "",
+    title: "Translator Application",
+    description:
+      "It helps to translate from one language to multiple languages. It is developed using svelte, typescript, nodejs and more.",
+    tags: ["nodejs", "svelte", "typescript"],
   },
   {
     imgUrl: images.work.backendCode,
