@@ -85,6 +85,15 @@ export const worksData: ReadonlyArray<WorkData> = [
   },
   {
     imgUrl: images.work.backendCode,
+    projectLink: "https://github.com/mcgraneder/AstralBridge-solV1/tree/master/contracts",
+    codeLink: "https://github.com/mcgraneder/AstralBridge-solV1/tree/master/contracts",
+    title: "Astral Bridge Contracts v1",
+    description:
+      "this project hosts the complete bridge contracts i designed in solidity for my latest cross chain bridge AMM project. the bridge factory is deployed on 9 EVM chains and communications between chains is enabled through a backend signature verifier API",
+    tags: ["nextjs", "reactjs", "typescript"],
+  },
+  {
+    imgUrl: images.work.backendCode,
     projectLink:
       "https://github.com/mcgraneder/Defi-Trading-Arbitrage-Bot/blob/main/Defi-Bot-Financial-Theory-%26-Design-Proposal.pdf",
     codeLink: "https://github.com/mcgraneder/Defi-Trading-Arbitrage-Bot",
