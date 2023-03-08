@@ -3,15 +3,6 @@ import { WorkData } from "@app/types";
 
 export const worksData: ReadonlyArray<WorkData> = [
   {
-    imgUrl: images.work.portfolio,
-    projectLink: "https://github.com/mcgraneder/New-Portfolio",
-    codeLink: "https://github.com/mcgraneder/New-Portfolio",
-    title: "Portfolio Website",
-    description:
-      "Portfolio Website developed for Full Stack Software Engineer with full responsiveness using Nextjs, Tailwindcss, SCSS, Typescript and more.",
-    tags: ["nextjs", "reactjs", "tailwindcss", "typescript"],
-  },
-  {
     imgUrl: images.work.astralBridge1,
     projectLink: "https://astral-bridge.vercel.app/home",
     codeLink: "https://github.com/mcgraneder/Astral-Bridge",
@@ -82,6 +73,15 @@ export const worksData: ReadonlyArray<WorkData> = [
     description:
       "Cryptocurrency Bitcoin Price Chart was developed using React, Typescript, coingecko-api, react-chartjs-2, chart.js and tailwindcss.",
     tags: ["reactjs", "typescript", "tailwindcss"],
+  },
+  {
+    imgUrl: images.work.portfolio,
+    projectLink: "https://github.com/mcgraneder/New-Portfolio",
+    codeLink: "https://github.com/mcgraneder/New-Portfolio",
+    title: "Portfolio Website",
+    description:
+      "Portfolio Website developed for Full Stack Software Engineer with full responsiveness using Nextjs, Tailwindcss, SCSS, Typescript and more.",
+    tags: ["nextjs", "reactjs", "tailwindcss", "typescript"],
   },
   {
     imgUrl: images.work.backendCode,
