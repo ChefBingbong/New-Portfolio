@@ -31,6 +31,15 @@ export const worksData: ReadonlyArray<WorkData> = [
   },
   {
     imgUrl: images.work.parallelWallets,
+    projectLink: "https://github.com/mcgraneder/cross-chain-wallet-sol",
+    codeLink: "https://github.com/mcgraneder/cross-chain-wallet-sol",
+    title: "Cross-chain gassless Wallet contracts",
+    description:
+      "This project is an system of ECDSA gassless wallet smart contracts written in solidity which ultizes the EIP712 standard for signing typed transation data. using this users can forward txs to their wallet to be executed by the admin contract deployer for gassless transfers",
+    tags: ["solidity", "nodejs", "typescript"],
+  },
+  {
+    imgUrl: images.work.backendCode,
     projectLink: "https://web3-crosschainwallet-demo.vercel.app/fund",
     codeLink: "https://github.com/mcgraneder/web3-crosschainwallet-demo",
     title: "Multi-chain Wallet System Package Demo",
