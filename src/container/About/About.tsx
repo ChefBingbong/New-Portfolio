@@ -30,7 +30,7 @@ const About = () => {
       <div className={`w-full ${style["app__about-container"]} 2xl:w-4/5`} ref={ref1}>
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
           <motion.div
-            variants={fadeIn("right", 0.5)}
+            variants={fadeIn("up", 0.25)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
