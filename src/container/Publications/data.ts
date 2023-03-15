@@ -28,13 +28,13 @@ export const worksData: ReadonlyArray<
   },
   {
     imgUrl: images.publications.defiMath,
-    projectLink: "Defi-Bot-Financial-Theory-&-Design-Philosopy",
+    projectLink: "https://nextjs-web-oauth.vercel.app",
     codeLink: "",
     title: "Exploring Financial algorithms for Flash loan Arbitrage",
     description:
       "Paper exploring the mathematics behind concepts in Defi such as Automated market makers (CPAMM's) aswell as efficent algorithms for executing flash loan arbitrage",
     tags: ["financial", "typescript"],
-    downloadLink: "decentralising-the-peer-review-system.pdf",
+    downloadLink: "Defi-Bot-Financial-Theory-&-Design-Philosopy.pdf",
   },
 ];
 
