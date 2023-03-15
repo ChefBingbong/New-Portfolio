@@ -28,7 +28,7 @@ export const worksData: ReadonlyArray<
   },
   {
     imgUrl: images.publications.defiMath,
-    projectLink: "https://nextjs-web-oauth.vercel.app",
+    projectLink: "Defi-Bot-Financial-Theory-&-Design-Philosopy",
     codeLink: "",
     title: "Exploring Financial algorithms for Flash loan Arbitrage",
     description:
