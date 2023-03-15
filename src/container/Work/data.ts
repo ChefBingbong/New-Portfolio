@@ -13,7 +13,7 @@ export const worksData: ReadonlyArray<WorkData> = [
   },
   {
     imgUrl: images.work.cryptoExploer,
-    projectLink: "https://blockchain-explorer-theta.vercel.app/en/explorerHome",
+    projectLink: "https://github.com/mcgraneder/blockchain_explorer",//"https://blockchain-explorer-theta.vercel.app/en/explorerHome",
     codeLink: "https://github.com/mcgraneder/blockchain_explorer",
     title: "Blockchain exploer & indexer",
     description:
