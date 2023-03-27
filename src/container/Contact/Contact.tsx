@@ -142,7 +142,7 @@ const Contact = () => {
                   </span>
                   <div>
                     <h4>Location</h4>
-                    <p>Chennai, India</p>
+                    <p>Dublin, Ireland</p>
                   </div>
                 </div>
                 <div className={style["contact_info"]}>

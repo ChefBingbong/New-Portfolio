@@ -13,7 +13,7 @@ export const worksData: ReadonlyArray<WorkData> = [
   },
   {
     imgUrl: images.work.cryptoExploer,
-    projectLink: "https://github.com/mcgraneder/blockchain_explorer",//"https://blockchain-explorer-theta.vercel.app/en/explorerHome",
+    projectLink: "https://blockchain-explorer-theta.vercel.app/explorerHome", //"https://blockchain-explorer-theta.vercel.app/en/explorerHome",
     codeLink: "https://github.com/mcgraneder/blockchain_explorer",
     title: "Blockchain exploer & indexer",
     description:
@@ -28,15 +28,6 @@ export const worksData: ReadonlyArray<WorkData> = [
     description:
       "Web3 wallet NPM Package Concept sandbox that allows users to connect to multiple wallets on different chains simultaneously in order to submit multiple paralle txs. This allows app users to abstract the need to show users what chain they're on. React.js Typescript, Ren.js Node.js",
     tags: ["nextjs", "reactjs", "typescript"],
-  },
-  {
-    imgUrl: images.work.backendCode,
-    projectLink: "https://github.com/mcgraneder/cross-chain-wallet-sol",
-    codeLink: "https://github.com/mcgraneder/cross-chain-wallet-sol",
-    title: "Cross-chain gassless Wallet contracts",
-    description:
-      "This project is an system of ECDSA gassless wallet smart contracts written in solidity which ultizes the EIP712 standard for signing typed transation data. using this users can forward txs to their wallet to be executed by the admin contract deployer for gassless transfers",
-    tags: ["solidity", "nodejs", "typescript"],
   },
   {
     imgUrl: images.work.daisynft,
@@ -73,15 +64,6 @@ export const worksData: ReadonlyArray<WorkData> = [
     description:
       "Cryptocurrency Bitcoin Price Chart was developed using React, Typescript, coingecko-api, react-chartjs-2, chart.js and tailwindcss.",
     tags: ["reactjs", "typescript", "tailwindcss"],
-  },
-  {
-    imgUrl: images.work.portfolio,
-    projectLink: "https://github.com/mcgraneder/New-Portfolio",
-    codeLink: "https://github.com/mcgraneder/New-Portfolio",
-    title: "Portfolio Website",
-    description:
-      "Portfolio Website developed for Full Stack Software Engineer with full responsiveness using Nextjs, Tailwindcss, SCSS, Typescript and more.",
-    tags: ["nextjs", "reactjs", "tailwindcss", "typescript"],
   },
   {
     imgUrl: images.work.backendCode,
