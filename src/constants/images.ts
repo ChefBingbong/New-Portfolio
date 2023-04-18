@@ -40,6 +40,7 @@ import defiMath from "./certifications/images/Defimath.png";
 import daisynft from "../assets/work/DaisyNFT.png";
 import macroswap from "../assets/work/DaisyNFT.png";
 import portfolio from "../assets/work/portfoliosc.png";
+import pancakeswap from "../assets/work/pancakeswapbg.png"
 
 
 
@@ -65,6 +66,7 @@ const work = {
   daisynft,
   macroswap,
   portfolio,
+  pancakeswap
 };
 
 const publications = {

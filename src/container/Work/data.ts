@@ -3,6 +3,15 @@ import { WorkData } from "@app/types";
 
 export const worksData: ReadonlyArray<WorkData> = [
   {
+    imgUrl: images.work.pancakeswap,
+    projectLink: "https://chain-abstraxtion-demo.vercel.app/",
+    codeLink: "https://github.com/mcgraneder/chain-abstraxtion-demo",
+    title: "Gasless Decentralised Exchange (DEX)",
+    description:
+      "This is a decentralised exchange i made which is a pancake swap exchange that lets users swap and trade through the pancake swap smart contracts without having to pay transaction fees or gas for trades. Next.js Node.js MongoDB Postgresql Typescript Web3-React Ethers.js Web3.js",
+    tags: ["nextjs", "typescript", "nodejs"],
+  },
+  {
     imgUrl: images.work.astralBridge1,
     projectLink: "https://astral-bridge.vercel.app/home",
     codeLink: "https://github.com/mcgraneder/Astral-Bridge",
@@ -28,15 +37,6 @@ export const worksData: ReadonlyArray<WorkData> = [
     description:
       "Web3 wallet NPM Package Concept sandbox that allows users to connect to multiple wallets on different chains simultaneously in order to submit multiple paralle txs. This allows app users to abstract the need to show users what chain they're on. React.js Typescript, Ren.js Node.js",
     tags: ["nextjs", "reactjs", "typescript"],
-  },
-  {
-    imgUrl: images.work.daisynft,
-    codeLink: "https://github.com/mcgraneder/daisy-nft-marketplace",
-    projectLink: "https://nft-marketplace-one-phi.vercel.app/create",
-    title: "NFT Marketplace",
-    description:
-      "Fullstack NFT Marketplace application using Next.js Typescript and Solidity. The app integrates with the Piniata NFT sdk for handling user NFT metadata. Users can mint their own custom NFTS assign them attributes and sell them for a given price.",
-    tags: ["reactjs", "typescript", "solidity"],
   },
   {
     imgUrl: images.work.nextjsWebOAuth,
