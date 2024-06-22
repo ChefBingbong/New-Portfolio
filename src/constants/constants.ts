@@ -38,11 +38,10 @@ export const socialLinks = [
 
 export const jobPositions = [
   "Full Stack Web3 Enginer",
+  "BackEnd Developer",
   "NodeJs Developer",
   "Typescript Developer",
   "Solidity Engineer",
-  "FrontEnd Developer",
-  "BackEnd Developer",
 ];
 
 export const programmingLanguages: ProgrammingLanguagesType = {
@@ -69,6 +68,18 @@ export const programmingLanguages: ProgrammingLanguagesType = {
     icon: icons.express,
     bgColor: "#b9b2b31a",
     url: "https://expressjs.com/",
+  },
+  solidity: {
+    name: "Solidity",
+    icon: icons.solidity,
+    bgColor: "#dedede",
+    url: "https://solidity.io/",
+  },
+  golang: {
+    name: "Golang",
+    icon: icons.golang,
+    bgColor: "#93e1f5",
+    url: "https://go.dev/",
   },
   gatsby: {
     name: "Gatsby",

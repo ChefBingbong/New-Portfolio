@@ -1,9 +1,23 @@
 export const experiences = [
   {
-    year: 2022,
+    year: 2023,
     works: [
       {
-        name: "Mid Level Defi Engineer - Full Stack",
+        name: "Software Engineer - Full Stack",
+        company: "Pancakeswap",
+        desc: `
+          <div>Backend / full stack engineer on <strong>Pancakeswap</strong> backend services and APIs.</div> 
+          <div><strong>Key developer</strong> at PCS and have built many different services such as fiat onramp server api, web3 notification scheduler, aswell as work on V4 related BE SDKs and APIs</div>
+          <div>Ive written software that generates <strong>$300,000</strong> consistetly per month and that is scaled to serve half a million concurrent monthly users</div>
+        `,
+      },
+    ],
+  },
+  {
+    year: 2021,
+    works: [
+      {
+        name: "Defi Engineer - Full Stack",
         company: "Ren Labs",
         desc: `
           <div>Frontend / smart contract engineer on <strong>Catalog</strong>, a crosschain Dex hosted by Ren Labs.</div> 
@@ -81,21 +95,23 @@ blockchain Technologies, <strong>POS, Layer2-Scaling, ZKP’s (ZK-SNARKS), Conse
 ] as const;
 
 export const skills = [
-  "javascript",
   "typescript",
-  "sass",
+  "solidity",
+  "golang",
   "nodejs",
   "express",
-  "mongodb",
-  "mysql",
   "redis",
+  "nextjs",
+  "docker",
+  "python",
+  "mysql",
+  "mongodb",
+  "javascript",
+  "sass",
   "react",
   "vue",
-  "nextjs",
   "svelte",
   "gatsby",
   "googlecloud",
   "heroku",
-  "docker",
-  "python",
 ] as const;

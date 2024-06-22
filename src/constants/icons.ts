@@ -42,4 +42,5 @@ export { default as tailwindcss } from "../assets/icons/tailwindcss.svg";
 export { default as typescript } from "../assets/icons/typescript.svg";
 export { default as yarn } from "../assets/icons/yarn.svg";
 export { default as youtube } from "../assets/icons/youtube.svg";
-
+export { default as golang } from "../assets/icons/golang.svg";
+export { default as solidity } from "../assets/icons/solidity.svg";

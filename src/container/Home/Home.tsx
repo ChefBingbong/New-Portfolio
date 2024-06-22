@@ -29,7 +29,6 @@ const Home = () => {
           <div className={`${style["badge-cmp"]} app__flex`}>
             <div className=" w-full ">
               <p className="p-text">
-                
                 <span className="mr-2">👋</span>Hi there, I am
               </p>
               <h1 className="text-[36px] font-semibold">Evan McGrane</h1>
@@ -72,7 +71,7 @@ const Home = () => {
         whileInView={scaleVariants.whileInView}
         className={style["app__home-circles"]}
       >
-        {[icons.reactjs, icons.nodejs, icons.javascript].map((circle, index) => (
+        {[icons.typescript, icons.golang, icons.solidity].map((circle, index) => (
           <ImageIcon key={index} circle={circle} index={index} />
         ))}
       </motion.div>

@@ -19,7 +19,7 @@
   "eslint.alwaysShowStatus": true,
   "eslint.enable": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   "scss.lint.unknownAtRules": "ignore",
   "cSpell.words": [
