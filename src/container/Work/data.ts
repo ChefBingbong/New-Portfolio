@@ -13,8 +13,8 @@ export const worksData: ReadonlyArray<WorkData> = [
   },
   {
     imgUrl: images.work.smartWallet,
-    projectLink: "https://github.com/ChefBingbong/smar-wallet-router-sdk/tree/feat%3B-bls",
-    codeLink: "https://ethereum-dub-2024-frontend.vercel.app/trade",
+    codeLink: "https://github.com/ChefBingbong/smar-wallet-router-sdk/tree/feat%3B-bls",
+    projectLink: "https://ethereum-dub-2024-frontend.vercel.app",
     title: "AA & ZK Smart Wallet Cross-Chain DEX",
     description:
       "This project is an application and SDK extends the PancakeSwap Universl and Swap routers for enbling users to execute batched transactions from an abstracted smart contract wallet contract on multiple chains. This enables users to make advanced trades on pancakeswap such as custom gas fee token trades and cross chain swaps with one signatures by leveraging ZK proofs",
