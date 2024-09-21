@@ -3,6 +3,42 @@ import { WorkData } from "@app/types";
 
 export const worksData: ReadonlyArray<WorkData> = [
   {
+    imgUrl: images.work.btcBridge,
+    projectLink: "https://github.com/ChefBingbong/BTC-bridge",
+    codeLink: "https://github.com/ChefBingbong/BTC-bridge",
+    title: "Native BTC to EVM bridge using HTLC's",
+    description:
+      "This project integrates with the Garden Finace BTC SDK aswell as my own smart wallet router SDK to allow cross chain native bitcoin swaps where users can pay bridge fees in any asset they want",
+    tags: ["nextjs", "typescript", "nodejs", "solidity"],
+  },
+  {
+    imgUrl: images.work.smartWallet,
+    projectLink: "https://github.com/ChefBingbong/smar-wallet-router-sdk/tree/feat%3B-bls",
+    codeLink: "https://ethereum-dub-2024-frontend.vercel.app/trade",
+    title: "AA & ZK Smart Wallet Cross-Chain DEX",
+    description:
+      "This project is an application and SDK extends the PancakeSwap Universl and Swap routers for enbling users to execute batched transactions from an abstracted smart contract wallet contract on multiple chains. This enables users to make advanced trades on pancakeswap such as custom gas fee token trades and cross chain swaps with one signatures by leveraging ZK proofs",
+    tags: ["nextjs", "typescript", "nodejs", "solidity"],
+  },
+  {
+    imgUrl: images.work.backendCode,
+    projectLink: "https://github.com/ChefBingbong/SMPC-threshold-signature-DSA/tree/main/src",
+    codeLink: "https://github.com/ChefBingbong/SMPC-threshold-signature-DSA/tree/main/src",
+    title: "Threshold Signature Multi-Party Digital Signatre P2P Network",
+    description:
+      "This project is a basic implemention a trustless secure multi-party TSS digital signature scheme for private key management over a network of P2P nodes in typescript to enable secure establishment of  a native BTC to EVM bridge. this project imnplements PBFT consensus to store proofs on a distyributed ledger.",
+    tags: ["nextjs", "typescript", "nodejs", "solidity"],
+  },
+  {
+    imgUrl: images.work.backendCode,
+    projectLink: "https://github.com/ChefBingbong/kademlia-p2p-ts",
+    codeLink: "https://github.com/ChefBingbong/kademlia-p2p-ts",
+    title: "Kademlia DHT for P2P Peer Discovery",
+    description:
+      "This project is a basic implementation of the Kademlia algorithm for building robust peer-to-peer networks and distributed systems, especially for efficent and consistent peer discovery",
+    tags: ["nextjs", "typescript", "nodejs"],
+  },
+  {
     imgUrl: images.work.pancakeswap,
     projectLink: "https://chain-abstraxtion-demo.vercel.app/",
     codeLink: "https://github.com/mcgraneder/chain-abstraxtion-demo",
@@ -21,15 +57,6 @@ export const worksData: ReadonlyArray<WorkData> = [
     tags: ["nextjs", "typescript", "nodejs"],
   },
   {
-    imgUrl: images.work.cryptoExploer,
-    projectLink: "https://blockchain-explorer-theta.vercel.app/explorerHome", //"https://blockchain-explorer-theta.vercel.app/en/explorerHome",
-    codeLink: "https://github.com/mcgraneder/blockchain_explorer",
-    title: "Blockchain exploer & indexer",
-    description:
-      "Full stack Etherscan like blockchain explorer for Ren L1 blockchain. Users can query blocks, transactions, ENS addresses and more. Features a bytecode decoder to extract error logs, event logs and smart contract input data info. React.js, Typescript, Node.js",
-    tags: ["nextjs", "typescript"],
-  },
-  {
     imgUrl: images.work.parallelWallets,
     projectLink: "https://web3-crosschainwallet-demo.vercel.app/fund",
     codeLink: "https://github.com/mcgraneder/web3-crosschainwallet-demo",
@@ -46,15 +73,6 @@ export const worksData: ReadonlyArray<WorkData> = [
     description:
       "Web OAuth Project developed using Next.js, NextAuth, Chakra UI, React, Redux, Redux Toolkit, TypeScript, Google OAuth, and more.",
     tags: ["nextjs", "typescript"],
-  },
-  {
-    imgUrl: images.work.web3login,
-    projectLink: "https://main--legendary-pithivier-efc9ea.netlify.app/",
-    codeLink: "https://github.com/mcgraneder/Celestium-DEX-InterfaceV1",
-    title: "Web3 ECDSA Cryptographic Login System",
-    description:
-      "Web3 eliptic curve digital signature & email based login system Concept using ENS verification and Mongo DB database",
-    tags: ["Nodejs", "reactjs", "typescript, nodejs"],
   },
   {
     imgUrl: images.work.cryptocurrencyBitcoin,

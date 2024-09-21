@@ -40,11 +40,9 @@ import defiMath from "./certifications/images/Defimath.png";
 import daisynft from "../assets/work/DaisyNFT.png";
 import macroswap from "../assets/work/DaisyNFT.png";
 import portfolio from "../assets/work/portfoliosc.png";
-import pancakeswap from "../assets/work/pancakeswapbg.png"
-
-
-
-
+import pancakeswap from "../assets/work/pancakeswapbg.png";
+import btcBridge from "../assets/work/btc-bridge.png";
+import smartWallet from "../assets/work/smart-wallet.png";
 
 const work = {
   angular12Boilerplate,
@@ -66,7 +64,9 @@ const work = {
   daisynft,
   macroswap,
   portfolio,
-  pancakeswap
+  pancakeswap,
+  btcBridge,
+  smartWallet,
 };
 
 const publications = {
