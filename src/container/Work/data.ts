@@ -8,7 +8,7 @@ export const worksData: ReadonlyArray<WorkData> = [
     codeLink: "https://github.com/ChefBingbong/BTC-bridge",
     title: "Native BTC to EVM bridge using HTLC's",
     description:
-      "This project integrates with the Garden Finace BTC SDK aswell as my own smart wallet router SDK to allow cross chain native bitcoin swaps where users can pay bridge fees in any asset they want",
+      "This project integrates with the Garden Finace BTC SDK aswell as my own smart wallet router SDK to allow cross chain native bitcoin swaps where users can pay bridge fees in any asset they want. Currently I do not have a deployment for this because its still and early work in progress",
     tags: ["nextjs", "typescript", "nodejs", "solidity"],
   },
   {
