@@ -38,7 +38,8 @@ const About = () => {
               Fullstack Web3 Developer with a passion for learning.
             </h3>
             <p className="mb-6 text-[18px]">
-              Full stack software engineer at PancakeSwap, working Backend services and SDKs.
+              Full stack software engineer at PancakeSwap, working Frontend aswell as Backend
+              services and SDKs.
               <br></br>
               <br></br>
               Bachelors of Applied Physics from Dublin City University, finishing 2nd in my class
